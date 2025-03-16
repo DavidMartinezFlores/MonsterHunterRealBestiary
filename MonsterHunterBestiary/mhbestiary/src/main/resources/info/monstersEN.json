@@ -1,0 +1,205 @@
+[
+  {
+    "monster": "Ajarakan",
+    "elemental_weakness": ["Water", "Ice"],
+    "damage_type": ["Physical", "Fire"],
+    "weak_spot": "Arm",
+    "breakable_parts": ["Back", "Tail (severable)"]
+  },
+  {
+    "monster": "Anjanath Fulgúreo Guardián",
+    "elemental_weakness": ["Water", "Dragon", "Ice"],
+    "damage_type": "Lightning",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Head", "Legs (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Arkveld",
+    "elemental_weakness": "Dragon",
+    "damage_type": "Chains",
+    "weak_spot": "Head",
+    "breakable_parts": ["Chains (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Arkveld Guardián",
+    "elemental_weakness": "Dragon",
+    "damage_type": "Chains",
+    "weak_spot": "Head",
+    "breakable_parts": ["Chains (2)", "Head", "Tail (severable)"]
+  },
+  {
+    "monster": "Balahara",
+    "elemental_weakness": "Lightning",
+    "damage_type": "Melee",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Head", "Tail (severable)"]
+  },
+  {
+    "monster": "Blangonga",
+    "elemental_weakness": ["Fire", "Lightning"],
+    "damage_type": "Ice",
+    "weak_spot": "Rear",
+    "breakable_parts": ["Tail", "Head (2)"]
+  },
+  {
+    "monster": "Chatacabra",
+    "elemental_weakness": ["Ice", "Lightning"],
+    "damage_type": "Physical",
+    "weak_spot": "Tongue",
+    "breakable_parts": ["Front Legs (2)"]
+  },
+  {
+    "monster": "Congalala",
+    "elemental_weakness": ["Fire", "Ice"],
+    "damage_type": "Melee",
+    "weak_spot": "Rear",
+    "breakable_parts": ["Tail", "Head", "Front Legs (2)"]
+  },
+  {
+    "monster": "Doshaguma",
+    "elemental_weakness": ["Fire", "Lightning"],
+    "damage_type": "Physical",
+    "weak_spot": "Belly",
+    "breakable_parts": ["Front Legs (2)", "Belly"]
+  },
+  {
+    "monster": "Doshaguma Guardián",
+    "elemental_weakness": ["Fire", "Lightning", "Ice", "Dragon"],
+    "damage_type": "Physical",
+    "weak_spot": "Front Legs",
+    "breakable_parts": ["Tail Hair", "Front Legs (2)"]
+  },
+  {
+    "monster": "Gore Magala",
+    "elemental_weakness": ["Fire", "Dragon", "Lightning"],
+    "damage_type": "Physical",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Wings (2)", "Antenna", "Tail (severable)"]
+  },
+  {
+    "monster": "Gravios",
+    "elemental_weakness": ["Water", "Ice", "Dragon"],
+    "damage_type": "Physical",
+    "weak_spot": "Head, Belly, Back, Tail",
+    "breakable_parts": ["Head", "Wings (2)", "Back", "Belly (2)", "Legs (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Gypceros",
+    "elemental_weakness": ["Fire", "Ice"],
+    "damage_type": "Poison",
+    "weak_spot": "Head",
+    "breakable_parts": ["Head (2)"]
+  },
+  {
+    "monster": "Hirabami",
+    "elemental_weakness": ["Fire", "Lightning"],
+    "damage_type": "Melee",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Head", "Tail (5)"]
+  },
+  {
+    "monster": "Jin Dahaad",
+    "elemental_weakness": "Fire",
+    "damage_type": "Ice",
+    "weak_spot": "Mouth, Torso",
+    "breakable_parts": ["Ice Head Plate", "Front Leg (2)", "Ice Abdomen Plate", "Ice Back Plate", "Back Legs (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Lala Barina",
+    "elemental_weakness": "Fire",
+    "damage_type": "Melee",
+    "weak_spot": "Tail",
+    "breakable_parts": ["Claws (2)", "Petals"]
+  },
+  {
+    "monster": "Nerscylla",
+    "elemental_weakness": ["Lightning", "Fire"],
+    "damage_type": "Melee",
+    "weak_spot": "Claw",
+    "breakable_parts": ["Stinger (2)", "Mantle", "Left Claw"]
+  },
+  {
+    "monster": "Nu Udra",
+    "elemental_weakness": "Water",
+    "damage_type": "Fire",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Head", "Arm (6, severable)"]
+  },
+  {
+    "monster": "Odogaron Ébano Guardián",
+    "elemental_weakness": "Water",
+    "damage_type": "Melee",
+    "weak_spot": "Tail, Front Leg",
+    "breakable_parts": ["Front Leg", "Back Leg", "Tail Tip", "Head (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Quematrice",
+    "elemental_weakness": "Water",
+    "damage_type": ["Physical", "Fire"],
+    "weak_spot": "Neck",
+    "breakable_parts": ["Head", "Tail (severable)"]
+  },
+  {
+    "monster": "Rathalos",
+    "elemental_weakness": ["Lightning", "Dragon"],
+    "damage_type": "Melee",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Wings (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Rathalos Guardián",
+    "elemental_weakness": ["Lightning", "Dragon"],
+    "damage_type": "Various",
+    "weak_spot": "Mouth, Legs",
+    "breakable_parts": ["Wings (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Rathian",
+    "elemental_weakness": ["Lightning", "Dragon"],
+    "damage_type": ["Physical", "Poison"],
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Wings (2)", "Tail (severable)"]
+  },
+  {
+    "monster": "Rey Dau",
+    "elemental_weakness": ["Water", "Ice"],
+    "damage_type": "Lightning",
+    "weak_spot": "Head",
+    "breakable_parts": ["Wings (2)", "Head", "Tail (severable)"]
+  },
+  {
+    "monster": "Rompopolo",
+    "elemental_weakness": "Water",
+    "damage_type": "Poison",
+    "weak_spot": "Tongue",
+    "breakable_parts": ["Head", "Back", "Tail", "Front Leg"]
+  },
+  {
+    "monster": "Uth Duna",
+    "elemental_weakness": "Lightning",
+    "damage_type": "Water",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Tail", "Front Leg", "Head"]
+  },
+  {
+    "monster": "Xu Wu",
+    "elemental_weakness": "Ice",
+    "damage_type": "Melee",
+    "weak_spot": "None",
+    "breakable_parts": ["Arm (6)", "Head", "Mouth"]
+  },
+  {
+    "monster": "Yian Kut-Ku",
+    "elemental_weakness": ["Water", "Ice", "Lightning"],
+    "damage_type": "Melee",
+    "weak_spot": "Mouth",
+    "breakable_parts": ["Head"]
+  },
+  {
+    "monster": "Zoh Shia",
+    "elemental_weakness": "Dragon",
+    "damage_type": "Melee",
+    "weak_spot": "None",
+    "breakable_parts": ["Front Leg (2)", "Wings (2)", "Head", "Tail (severable)"]
+  }
+]

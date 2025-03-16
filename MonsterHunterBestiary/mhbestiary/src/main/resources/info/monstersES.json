@@ -1,0 +1,170 @@
+[
+  {
+    "monster": "Ajarakan",
+    "elemental_weakness": ["Agua", "Hielo"],
+    "damage_type": ["Físico", "Fuego"],
+    "weak_spot": "Brazo",
+    "breakable_parts": ["Espalda", "Cola (separable)"]
+  },
+  {
+    "monster": "Anjanath Fulgúreo Guardián",
+    "elemental_weakness": ["Agua", "Dragón", "Hielo"],
+    "damage_type": "Rayo",
+    "weak_spot": "Boca",
+    "breakable_parts": ["Cabeza", "Patas (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Arkveld",
+    "elemental_weakness": "Dragón",
+    "damage_type": "Cadenas",
+    "weak_spot": "Cabeza",
+    "breakable_parts": ["Cadenas (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Arkveld Guardián",
+    "elemental_weakness": "Dragón",
+    "damage_type": "Cadenas",
+    "weak_spot": "Cabeza",
+    "breakable_parts": ["Cadenas (2)", "Cabeza", "Cola (separable)"]
+  },
+  {
+    "monster": "Balahara",
+    "elemental_weakness": "Rayo",
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Boca",
+    "breakable_parts": ["Cabeza", "Cola (separable)"]
+  },
+  {
+    "monster": "Blangonga",
+    "elemental_weakness": ["Fuego", "Rayo"],
+    "damage_type": "Hielo",
+    "weak_spot": "Parte trasera",
+    "breakable_parts": ["Cola", "Cabeza (2)"]
+  },
+  {
+    "monster": "Chatacabra",
+    "elemental_weakness": ["Hielo", "Rayo"],
+    "damage_type": "Físico",
+    "weak_spot": "Lengua",
+    "breakable_parts": ["Patas delanteras (2)"]
+  },
+  {
+    "monster": "Congalala",
+    "elemental_weakness": ["Fuego", "Hielo"],
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Parte trasera",
+    "breakable_parts": ["Cola", "Cabeza", "Patas delanteras (2)"]
+  },
+  {
+    "monster": "Doshaguma",
+    "elemental_weakness": ["Fuego", "Rayo"],
+    "damage_type": "Físico",
+    "weak_spot": "Vientre",
+    "breakable_parts": ["Patas delanteras (2)", "Vientre"]
+  },
+  {
+    "monster": "Doshaguma Guardián",
+    "elemental_weakness": ["Fuego", "Rayo", "Hielo", "Dragón"],
+    "damage_type": "Físico",
+    "weak_spot": "Patas delanteras",
+    "breakable_parts": ["Pelo de la cola", "Patas delanteras (2)"]
+  },
+  {
+    "monster": "Gore Magala",
+    "elemental_weakness": ["Fuego", "Dragón", "Rayo"],
+    "damage_type": "Físico",
+    "weak_spot": "Boca",
+    "breakable_parts": ["Alas (2)", "Antena", "Cola (separable)"]
+  },
+  {
+    "monster": "Gravios",
+    "elemental_weakness": ["Agua", "Hielo", "Dragón"],
+    "damage_type": "Físico",
+    "weak_spot": "Cabeza, Vientre, Espalda, Cola",
+    "breakable_parts": ["Cabeza", "Alas (2)", "Espalda", "Vientre (2)", "Patas (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Gypceros",
+    "elemental_weakness": ["Fuego", "Hielo"],
+    "damage_type": "Veneno",
+    "weak_spot": "Cabeza",
+    "breakable_parts": ["Cabeza (2)"]
+  },
+  {
+    "monster": "Hirabami",
+    "elemental_weakness": ["Fuego", "Rayo"],
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Boca",
+    "breakable_parts": ["Cabeza", "Cola (5)"]
+  },
+  {
+    "monster": "Jin Dahaad",
+    "elemental_weakness": "Fuego",
+    "damage_type": "Hielo",
+    "weak_spot": "Boca, Torso",
+    "breakable_parts": ["Placa de hielo en la cabeza", "Pata delantera (2)", "Placa de hielo en el abdomen", "Placa de hielo en la espalda", "Patas traseras (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Lala Barina",
+    "elemental_weakness": "Fuego",
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Cola",
+    "breakable_parts": ["Garras (2)", "Pétalos"]
+  },
+  {
+    "monster": "Nerscylla",
+    "elemental_weakness": ["Rayo", "Fuego"],
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Garra",
+    "breakable_parts": ["Aguijón (2)", "Manto", "Garra izquierda"]
+  },
+  {
+    "monster": "Nu Udra",
+    "elemental_weakness": "Agua",
+    "damage_type": "Fuego",
+    "weak_spot": "Boca",
+    "breakable_parts": ["Cabeza", "Brazo (6, separable)"]
+  },
+  {
+    "monster": "Odogaron Ébano Guardián",
+    "elemental_weakness": "Agua",
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Cola, Pata delantera",
+    "breakable_parts": ["Pata delantera", "Pata trasera", "Punta de la cola", "Cabeza (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Quematrice",
+    "elemental_weakness": "Agua",
+    "damage_type": ["Físico", "Fuego"],
+    "weak_spot": "Cuello",
+    "breakable_parts": ["Cabeza", "Cola (separable)"]
+  },
+  {
+    "monster": "Rathalos",
+    "elemental_weakness": ["Rayo", "Dragón"],
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Boca",
+    "breakable_parts": ["Alas (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Rathian",
+    "elemental_weakness": ["Rayo", "Dragón"],
+    "damage_type": ["Físico", "Veneno"],
+    "weak_spot": "Boca",
+    "breakable_parts": ["Alas (2)", "Cola (separable)"]
+  },
+  {
+    "monster": "Xu Wu",
+    "elemental_weakness": "Hielo",
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Ninguno",
+    "breakable_parts": ["Brazo (6)", "Cabeza", "Boca"]
+  },
+  {
+    "monster": "Zoh Shia",
+    "elemental_weakness": "Dragón",
+    "damage_type": "Cuerpo a cuerpo",
+    "weak_spot": "Ninguno",
+    "breakable_parts": ["Pata delantera (2)", "Alas (2)", "Cabeza", "Cola (separable)"]
+  }
+]
