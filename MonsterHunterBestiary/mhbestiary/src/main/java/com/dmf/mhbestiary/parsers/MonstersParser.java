@@ -15,7 +15,7 @@ public class MonstersParser {
     {
         Monster[] monsters = new Monster[0];
         // El JSON que queremos parsear (en una cadena o archivo)
-        String jsonFilePath = "./MonsterHunterBestiary/mhbestiary/info/monsters.json";
+        String jsonFilePath = "./MonsterHunterBestiary/mhbestiary/info/monstersEN.json";
 
         try
         {
