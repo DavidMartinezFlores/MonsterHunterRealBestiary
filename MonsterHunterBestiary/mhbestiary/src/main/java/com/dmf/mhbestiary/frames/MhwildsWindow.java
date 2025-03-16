@@ -4,6 +4,9 @@
  */
 package com.dmf.mhbestiary.frames;
 
+import javax.swing.*;
+import java.awt.Toolkit;
+
 /**
  *
  * @author USUARIO
@@ -15,6 +18,8 @@ public class MhwildsWindow extends javax.swing.JFrame {
      */
     public MhwildsWindow() {
         initComponents();
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -25,10 +30,10 @@ public class MhwildsWindow extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
+        this.setLocationRelativeTo(null);
         jButton1 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
         jButton1.setBackground(new java.awt.Color(0, 153, 51));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
