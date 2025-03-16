@@ -4,6 +4,8 @@
  */
 package com.dmf.mhbestiary.frames;
 
+import com.sun.tools.javac.Main;
+
 import javax.swing.*;
 import java.awt.Toolkit;
 
@@ -13,10 +15,13 @@ import java.awt.Toolkit;
  */
 public class MhwildsWindow extends javax.swing.JFrame {
 
+    private MainWindow mainWindow;
+
     /**
      * Creates new form MhwildsWindow
      */
-    public MhwildsWindow() {
+    public MhwildsWindow(MainWindow mainWindow) {
+        this.mainWindow = mainWindow;
         initComponents();
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         this.setLocationRelativeTo(null);
@@ -33,7 +38,7 @@ public class MhwildsWindow extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
         jButton1.setBackground(new java.awt.Color(0, 153, 51));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -70,9 +75,17 @@ public class MhwildsWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        MhwildsMonsters mhwildsMonsters = new MhwildsMonsters();
+        MhwildsMonsters mhwildsMonsters = new MhwildsMonsters(this);
         mhwildsMonsters.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    @Override
+    public void dispose()
+    {
+        this.mainWindow.setVisible(true);
+        super.dispose();
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;

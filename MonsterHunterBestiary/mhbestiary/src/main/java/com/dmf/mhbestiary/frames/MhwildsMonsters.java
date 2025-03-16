@@ -7,17 +7,13 @@ package com.dmf.mhbestiary.frames;
 
 import java.awt.*;
 import javax.swing.*;
-import java.awt.image.BufferedImage;
-import java.awt.geom.Ellipse2D;
 import java.awt.RenderingHints;
 import com.dmf.mhbestiary.models.Monster;
 import com.dmf.mhbestiary.parsers.MonstersParser;
 
 import javax.imageio.ImageIO;
-import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
-import java.awt.*;
 import java.awt.geom.RoundRectangle2D;
 import java.io.File;
 import java.io.IOException;
@@ -27,6 +23,8 @@ import java.io.IOException;
  * @author USUARIO
  */
 public class MhwildsMonsters extends javax.swing.JFrame {
+
+    private MhwildsWindow mhWildsWindow;
 
     /**
      * Attribute monsters
@@ -84,8 +82,8 @@ public class MhwildsMonsters extends javax.swing.JFrame {
     /**
      * Creates new form MhwildsMonsters
      */
-    public MhwildsMonsters() {
-
+    public MhwildsMonsters(MhwildsWindow mhWildsWindow) {
+        this.mhWildsWindow = mhWildsWindow;
         this.monsters = new MonstersParser().getMonsters();
 
         ToolTipManager.sharedInstance().setDismissDelay(Integer.MAX_VALUE);
@@ -102,98 +100,105 @@ public class MhwildsMonsters extends javax.swing.JFrame {
         this.setTitle("Mh Wilds Monsters");
 
 
-        this.jLabel2.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/ajarakan.png"));
+        this.jLabel2.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/ajarakan.png"));
         fillMonsterInfo("Ajarakan", this.jLabel2);
-        setRoundBorder(this.jLabel2);
+        //setRoundBorder(this.jLabel2);
 
-        this.jLabel3.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/anjanath fulgureo guardian.png"));
+        this.jLabel3.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/anjanath guaridan fulgureo.png"));
         fillMonsterInfo("Anjanath Fulgúreo Guardián", this.jLabel3);
 
 
-        this.jLabel4.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/arkveld.png"));
+        this.jLabel4.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/arkveld.png"));
         fillMonsterInfo("Arkveld", this.jLabel4);
 
-        this.jLabel5.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/arkveld guardian.png"));
+        this.jLabel5.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/arkveld guardian.png"));
         fillMonsterInfo("Arkveld Guardián", this.jLabel5);
 
-        this.jLabel6.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/balahara.png"));
+        this.jLabel6.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/balahara.png"));
         fillMonsterInfo("Balahara", this.jLabel6);
 
-        this.jLabel7.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/blangonga.png"));
+        this.jLabel7.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/blangonga.png"));
         fillMonsterInfo("Blangonga", this.jLabel7);
 
-        this.jLabel8.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/chatacabra.png"));
+        this.jLabel8.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/chatacabra.png"));
         fillMonsterInfo("Chatacabra", this.jLabel8);
 
-        this.jLabel9.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/congalala.png"));
+        this.jLabel9.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/congalala.png"));
         fillMonsterInfo("Congalala", this.jLabel9);
 
-        this.jLabel10.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/doshaguma.png"));
+        this.jLabel10.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/doshaguma.png"));
         fillMonsterInfo("Doshaguma", this.jLabel10);
 
-        this.jLabel11.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/doshaguma guardian.png"));
+        this.jLabel11.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/doshaguma guardian.png"));
         fillMonsterInfo("Doshaguma Guardián", this.jLabel11);
 
-        this.jLabel12.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/gore magala.png"));
+        this.jLabel12.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/gore magala.png"));
         fillMonsterInfo("Gore Magala", this.jLabel12);
 
-        this.jLabel13.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/gravios.png"));
+        this.jLabel13.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/gravios.png"));
         fillMonsterInfo("Gravios", this.jLabel13);
 
-        this.jLabel14.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/gypceros.png"));
+        this.jLabel14.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/gypceros.png"));
         fillMonsterInfo("Gypceros", this.jLabel14);
 
-        this.jLabel15.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/hirabami.png"));
+        this.jLabel15.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/hirabami.png"));
         fillMonsterInfo("Hirabami", this.jLabel15);
 
-        this.jLabel16.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/jin dahaad.png"));
+        this.jLabel16.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/jin dahaad.png"));
         fillMonsterInfo("Jin Dahaad", this.jLabel16);
 
-        this.jLabel17.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/lala barina.png"));
+        this.jLabel17.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/lala barina.png"));
         fillMonsterInfo("Lala Barina", this.jLabel17);
 
-        this.jLabel18.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/nerscylla.png"));
+        this.jLabel18.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/nerscylla.png"));
         fillMonsterInfo("Nerscylla", this.jLabel18);
 
-        this.jLabel19.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/nu udra.png"));
+        this.jLabel19.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/nu udra.png"));
         fillMonsterInfo("Nu Udra", this.jLabel19);
 
-        this.jLabel20.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/odogaron ebano.png"));
+        this.jLabel20.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/odogaron ebano.png"));
         fillMonsterInfo("Odogaron Ébano Guardián", this.jLabel20);
 
-        this.jLabel21.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/quematrice.png"));
+        this.jLabel21.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/quematrice.png"));
         fillMonsterInfo("Quematrice", this.jLabel21);
 
-        this.jLabel22.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/rathalos.png"));
+        this.jLabel22.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/rathalos.png"));
         fillMonsterInfo("Rathalos", this.jLabel22);
 
-        this.jLabel23.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/rathalos guardian.png"));
+        this.jLabel23.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/rathalos guardian.png"));
         fillMonsterInfo("Rathalos Guardián", this.jLabel23);
 
-        this.jLabel24.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/rathian.png"));
+        this.jLabel24.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/rathian.png"));
         fillMonsterInfo("Rathian", this.jLabel24);
 
-        this.jLabel25.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/rey dau.png"));
+        this.jLabel25.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/rey dau.png"));
         fillMonsterInfo("Rey Dau", this.jLabel25);
 
-        this.jLabel26.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/rompopolo.png"));
+        this.jLabel26.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/rompopolo.png"));
         fillMonsterInfo("Rompopolo", this.jLabel26);
 
-        this.jLabel27.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/uth duna.png"));
+        this.jLabel27.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/uth duna.png"));
         fillMonsterInfo("Uth Duna", this.jLabel27);
 
-        this.jLabel28.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/xu wu.png"));
+        this.jLabel28.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/xu wu.png"));
         fillMonsterInfo("Xu Wu", this.jLabel28);
 
-        this.jLabel29.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/yian kut-ku.png"));
+        this.jLabel29.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/yian kut-ku.png"));
         fillMonsterInfo("Yian Kut-Ku", this.jLabel29);
 
-        this.jLabel30.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/zoh shia.png"));
+        this.jLabel30.setIcon(new ImageIcon("./MonsterHunterBestiary/mhbestiary/images/monsters/zoh shia.png"));
         fillMonsterInfo("Zoh Shia", this.jLabel30);
 
 
         this.setBackgroundImage("./MonsterHunterBestiary/mhbestiary/images/menus/back.png");
     }
+
+    @Override
+    public void dispose() {
+        this.mhWildsWindow.setVisible(true);
+        super.dispose();
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -233,7 +238,7 @@ public class MhwildsMonsters extends javax.swing.JFrame {
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
         jLabel2.setText("jLabel1");
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
